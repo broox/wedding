@@ -1,0 +1,83 @@
+<html>
+<head>
+	<title>Derek and Kari</title>
+	<style type="text/css" media="screen">
+		@import url(wedding.css);
+	</style>
+</head>
+<body>
+	<table class="main" cellspacing="0"><tr><td align="center" valign="middle">
+		<table class="container" cellspacing="0"><tr><td valign="top">
+			<table class="stuff" cellspacing="0">
+				<tr>
+					<td class="head" align="center"><img src="images/header-2.gif"/></td>
+				</tr>
+				<tr>
+					<td class="nav-block" align="right" valign="middle"><a href="/wedding/" class="nav">Home</a> &middot; <a href="/wedding/church.html" class="nav">Church</a> &middot; <a href="/wedding/reception.html" class="nav">Reception</a> &middot; <a href="/wedding/gifts.html" class="nav">Registry</a> &middot; <a href="/wedding/photos.html" class="nav">Photos</a> &middot; <a href="/wedding/contact.php" class="nav">Contact</a>&nbsp;</td>
+				</tr>
+				<tr>
+					<td class="content">
+					<center>
+					<table width="500" cellpadding="4">
+					<tr>
+						<td valign="top"><img src="photos/engagement-01.jpg" style="border: 1px solid #000000;" alt="LOL!!!!"></td>
+						<td valign="top">
+						<?
+						/*
+						if (!$_POST["post"])
+						{
+							echo "This form can be used to contact us via email.  Please contact us with any questions/comments you may have.  We'd love to hear from you.\n";
+							?>
+							<form name="frmContact" method="POST" action="contact.php">
+								<center>
+								<table>
+								<tr>
+									<td>Name:</td>
+									<td><input name="name" style="width:300px;"></td>
+								</tr>
+								<tr>
+									<td>Email:</td>
+									<td><input name="from" style="width:300px;"></td>
+								</tr>
+								<tr>
+									<td>Subject:</td>
+									<td><input name="subject" style="width:300px;"></td>
+								</tr>
+								<tr>
+									<td valign=top>Body:</td>
+									<td><textarea name="body" rows="7" cols="30" style="width:300px;"></textarea></td>
+								</tr>
+								<tr>
+									<td colspan="2" style="text-align:center"><input type="submit" name="post" value="Send"></td>
+								</tr>
+								</table>
+								</center>
+							</form>
+							<?
+						}
+						else
+						{
+							$ip = $_SERVER['REMOTE_ADDR'];
+							$host = gethostbyaddr($ip);
+							mail("derek@broox.com", "broox.com/wedding - ".$_POST["subject"], $_POST["name"]." (".$ip." - ".$host.") writes:\n\n".$_POST["body"]."\n\nemail recieved from the broox.com/wedding contact form.", "From: ".$_POST["from"]."\nReply-To: ".$_POST["from"]);
+							mail("kari.reynolds@gmail.com", "broox.com/wedding - ".$_POST["subject"], $_POST["name"]." (".$ip." - ".$host.") writes:\n\n".$_POST["body"]."\n\nemail recieved from the broox.com/wedding contact form.", "From: ".$_POST["from"]."\nReply-To: ".$_POST["from"]);
+
+							echo "<center>Thanks for contacting us!</center>\n";
+						}
+						*/
+						?>
+						</td>
+					</tr>
+					</tr>
+					</table>
+
+					</center>
+					</td>
+				</tr>
+			</table>
+
+		</td><tr></table>
+	</td></tr></table>
+	</center>
+</body>
+</html>
