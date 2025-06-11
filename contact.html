@@ -21,39 +21,23 @@
                 <a href="contact.html" class="nav">Contact</a>
             </div>
             <div class="content">
-                <div class="image-and-content" style="max-width: 90%">
+                <div class="image-and-content">
                     <img src="photos/engagement-01.jpg" alt="LOL!!!!">
                     <div>
-                        This form can be used to contact us via email.  Please contact us with any questions/comments you may have.  We'd love to hear from you.<br/><br/>
+                        This form can be used to contact us via email.  Please contact us with any questions/comments you may have.  We'd love to hear from you.
 
-                        <form name="frmContact" method="POST" action="contact.php">
-                            <table>
-                            <tr>
-                                <td>Name:</td>
-                                <td><input name="name" style="width:300px;" disabled></td>
-                            </tr>
-                            <tr>
-                                <td>Email:</td>
-                                <td><input name="from" style="width:300px;" disabled></td>
-                            </tr>
-                            <tr>
-                                <td>Subject:</td>
-                                <td><input name="subject" style="width:300px;" disabled></td>
-                            </tr>
-                            <tr>
-                                <td valign=top>Body:</td>
-                                <td><textarea name="body" rows="7" cols="30" style="width:300px;" disabled></textarea></td>
-                            </tr>
-                            <tr>
-                                <td colspan="2" style="text-align:center"><input type="submit" name="post" value="Send" disabled></td>
-                            </tr>
-                            </table>
-
-                            <br/>
-                            <div style="text-align: center;">
-                              Email us at <a href="mailto:derek@broox.com">derek@broox.com</a>
+                        <form name="frmContact" method="POST" action="contact.php" class="contact-form">
+                            <input name="name" id="name" placeholder="Name" disabled>
+                            <input name="from" id="from" placeholder="Email" disabled>
+                            <input name="subject" id="subject" Placeholder="Subject" disabled>
+                            <textarea name="body" id="body" rows="7" disabled></textarea>
+                            <div class="form-group form-actions">
+                                <input type="submit" name="post" value="Send" disabled>
                             </div>
                         </form>
+                        <div style="text-align: center;">
+                            Email us at <a href="mailto:derek@broox.com">derek@broox.com</a>
+                        </div>
                     </div>
                 </div>
             </div>
