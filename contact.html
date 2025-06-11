@@ -1,69 +1,62 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>Derek and Kari</title>
-	<style type="text/css" media="screen">
-		@import url(wedding.css);
-	</style>
+    <meta charset="UTF-8">
+    <title>Derek and Kari</title>
+    <link rel="stylesheet" href="wedding.css">
 </head>
 <body>
-	<table class="main" cellspacing="0"><tr><td align="center" valign="middle">
-		<table class="container" cellspacing="0"><tr><td valign="top">
-			<table class="stuff" cellspacing="0">
-				<tr>
-					<td class="head" align="center"><img src="images/header-2.gif"/></td>
-				</tr>
-				<tr>
-					<td class="nav-block" align="right" valign="middle"><a href="index.html" class="nav">Home</a> &middot; <a href="church.html" class="nav">Church</a> &middot; <a href="reception.html" class="nav">Reception</a> &middot; <a href="gifts.html" class="nav">Registry</a> &middot; <a href="photos.html" class="nav">Photos</a> &middot; <a href="contact.hml" class="nav">Contact</a>&nbsp;</td>
-				</tr>
-				<tr>
-					<td class="content">
-					<center>
-					<table width="500" cellpadding="4">
-					<tr>
-						<td valign="top"><img src="photos/engagement-01.jpg" style="border: 1px solid #000000;" alt="LOL!!!!"></td>
-						<td valign="top">
-							This form can be used to contact us via email.  Please contact us with any questions/comments you may have.  We'd love to hear from you.<br/><br/>
+    <div class="main">
+        <div class="container">
+            <div class="head">
+                <img src="images/header-2.gif"/>
+            </div>
+            <div class="nav-block">
+                <a href="index.html" class="nav">Home</a> &middot; 
+                <a href="church.html" class="nav">Ceremony</a> &middot; 
+                <a href="reception.html" class="nav">Reception</a> &middot; 
+                <a href="gifts.html" class="nav">Registry</a> &middot; 
+                <a href="photos.html" class="nav">Photos</a> &middot; 
+                <a href="contact.html" class="nav">Contact</a>
+            </div>
+            <div class="content">
+                <div class="image-and-content" style="max-width: 90%">
+                    <img src="photos/engagement-01.jpg" alt="LOL!!!!">
+                    <div>
+                        This form can be used to contact us via email.  Please contact us with any questions/comments you may have.  We'd love to hear from you.<br/><br/>
 
-							<form name="frmContact" method="POST" action="contact.php">
-								<center>
-								<table>
-								<tr>
-									<td>Name:</td>
-									<td><input name="name" style="width:300px;"></td>
-								</tr>
-								<tr>
-									<td>Email:</td>
-									<td><input name="from" style="width:300px;"></td>
-								</tr>
-								<tr>
-									<td>Subject:</td>
-									<td><input name="subject" style="width:300px;"></td>
-								</tr>
-								<tr>
-									<td valign=top>Body:</td>
-									<td><textarea name="body" rows="7" cols="30" style="width:300px;"></textarea></td>
-								</tr>
-								<tr>
-									<td colspan="2" style="text-align:center"><input type="submit" name="post" value="Send" disabled></td>
-								</tr>
-								</table>
+                        <form name="frmContact" method="POST" action="contact.php">
+                            <table>
+                            <tr>
+                                <td>Name:</td>
+                                <td><input name="name" style="width:300px;" disabled></td>
+                            </tr>
+                            <tr>
+                                <td>Email:</td>
+                                <td><input name="from" style="width:300px;" disabled></td>
+                            </tr>
+                            <tr>
+                                <td>Subject:</td>
+                                <td><input name="subject" style="width:300px;" disabled></td>
+                            </tr>
+                            <tr>
+                                <td valign=top>Body:</td>
+                                <td><textarea name="body" rows="7" cols="30" style="width:300px;" disabled></textarea></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" style="text-align:center"><input type="submit" name="post" value="Send" disabled></td>
+                            </tr>
+                            </table>
 
-								<br/><br/>Email us at <a href="mailto:derek@broox.com">derek@broox.com</a>
-								</center>
-							</form>
-
-						</td>
-					</tr>
-					</tr>
-					</table>
-
-					</center>
-					</td>
-				</tr>
-			</table>
-
-		</td><tr></table>
-	</td></tr></table>
-	</center>
+                            <br/>
+                            <div style="text-align: center;">
+                              Email us at <a href="mailto:derek@broox.com">derek@broox.com</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
